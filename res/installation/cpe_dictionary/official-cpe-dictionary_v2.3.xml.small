@@ -1,0 +1,1002 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cpe-list xmlns:config="http://scap.nist.gov/schema/configuration/0.1" xmlns="http://cpe.mitre.org/dictionary/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scap-core="http://scap.nist.gov/schema/scap-core/0.3" xmlns:cpe-23="http://scap.nist.gov/schema/cpe-extension/2.3" xmlns:ns6="http://scap.nist.gov/schema/scap-core/0.1" xmlns:meta="http://scap.nist.gov/schema/cpe-dictionary-metadata/0.2" xsi:schemaLocation="http://scap.nist.gov/schema/cpe-extension/2.3 https://scap.nist.gov/schema/cpe/2.3/cpe-dictionary-extension_2.3.xsd http://cpe.mitre.org/dictionary/2.0 https://scap.nist.gov/schema/cpe/2.3/cpe-dictionary_2.3.xsd http://scap.nist.gov/schema/cpe-dictionary-metadata/0.2 https://scap.nist.gov/schema/cpe/2.1/cpe-dictionary-metadata_0.2.xsd http://scap.nist.gov/schema/scap-core/0.3 https://scap.nist.gov/schema/nvd/scap-core_0.3.xsd http://scap.nist.gov/schema/configuration/0.1 https://scap.nist.gov/schema/nvd/configuration_0.1.xsd http://scap.nist.gov/schema/scap-core/0.1 https://scap.nist.gov/schema/nvd/scap-core_0.1.xsd">
+  <generator>
+    <product_name>National Vulnerability Database (NVD)</product_name>
+    <product_version>4.4</product_version>
+    <schema_version>2.3</schema_version>
+    <timestamp>2021-05-21T03:50:31.204Z</timestamp>
+  </generator>
+  <cpe-item name="cpe:/a:%240.99_kindle_books_project:%240.99_kindle_books:6::~~~android~~">
+    <title xml:lang="en-US">$0.99 Kindle Books project $0.99 Kindle Books (aka com.kindle.books.for99) for android 6.0</title>
+    <references>
+      <reference href="https://play.google.com/store/apps/details?id=com.kindle.books.for99">Product information</reference>
+      <reference href="https://docs.google.com/spreadsheets/d/1t5GXwjw82SyunALVJb2w0zi3FoLRIkfGPc7AMjRF0r4/edit?pli=1#gid=1053404143">Government Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\$0.99_kindle_books_project:\$0.99_kindle_books:6:*:*:*:*:android:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:-::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:-:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.1.0::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.1.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.1.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.2.0::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.2.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.2.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.2.1::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.2.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.2.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.2.2::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.2.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.2.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.0::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.1::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.2::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.3::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.3 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.3:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.4::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.4 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.4:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.5::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.5 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.5:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.6::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.6 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.6:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.7::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.7 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.7:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.8::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.8 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.8:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.9::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.9 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.9:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.10::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.10 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.10:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.11::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.11 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.11:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.12::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.12 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.12:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.13::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.13 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.13:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.17::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.17 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.17:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.18::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.18 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.18:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.19::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.19 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.19:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.20::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.20 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.20:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.3.21::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.3.21 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.3.21:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:%40thi.ng%2fegf_project:%40thi.ng%2fegf:0.4.0::~~~node.js~~">
+    <title xml:lang="en-US">@thi.ng/egf Project @thi.ng/egf 0.4.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/thi-ng/umbrella/security/advisories/GHSA-rj44-gpjc-29r7">Advisory</reference>
+      <reference href="https://www.npmjs.com/package/@thi.ng/egf">Version</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:\@thi.ng\/egf_project:\@thi.ng\/egf:0.4.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:01org:tpm2.0-tools:1.1.0">
+    <title xml:lang="en-US">01org Tpm2.0-tools 1.1.0</title>
+    <references>
+      <reference href="https://github.com/01org/tpm2.0-tools">Product</reference>
+      <reference href="https://github.com/01org">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:01org:tpm2.0-tools:1.1.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1000guess:1000_guess:-">
+    <title xml:lang="en-US">1000 Guess</title>
+    <references>
+      <reference href="http://www.1000guess.com/">Vendor</reference>
+      <reference href="https://medium.com/coinmonks/attack-on-pseudo-random-number-generator-prng-used-in-1000-guess-an-ethereum-lottery-game-7b76655f953d">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1000guess:1000_guess:-:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.1.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.1.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.1.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.2.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.2.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.2.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.3.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.3.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.3.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.3.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.3.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.3.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.3.2::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.3.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.3.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.3.3::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.3.3 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.3.3:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.3.4::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.3.4 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.3.4:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.4.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.4.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.4.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.4.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.4.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.4.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.4.2::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.4.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.4.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.5.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.5.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.5.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.6.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.6.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.6.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.7.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.7.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.7.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.7.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.7.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.7.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.7.2::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.7.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.7.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.7.3::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.7.3 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.7.3:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.8.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.8.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.8.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.8.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.8.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.8.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.8.2::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.8.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.8.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.9.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.9.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.9.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.10.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.10.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.10.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.11.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.11.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.11.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.11.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.11.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.11.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.12.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.12.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.12.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.13.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.13.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.13.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.14.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.14.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.14.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.14.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.14.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.14.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.15.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.15.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.15.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.16.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.16.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.16.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.16.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.16.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.16.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.17.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.17.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.17.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.18.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.18.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.18.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:0.19.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 0.19.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:0.19.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.0.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.0.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.0.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.1.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.1.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.1.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.1.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.1.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.1.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.2.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.2.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.2.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.3.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.3.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.3.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.3.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.3.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.3.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.4.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.4.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.4.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.5.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.5.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.5.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.6.0::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.6.0 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.6.0:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.6.1::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.6.1 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.6.1:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.6.2::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.6.2 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.6.2:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:101_project:101:1.6.3::~~~node.js~~">
+    <title xml:lang="en-US">101 Project 101 1.6.3 for Node.js</title>
+    <references>
+      <reference href="https://github.com/tjmehta/101/releases">Version</reference>
+      <reference href="https://www.whitesourcesoftware.com/vulnerability-database/CVE-2021-25943">Advisory</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:101_project:101:1.6.3:*:*:*:*:node.js:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:0.7">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 0.7</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:0.7:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:1.2.5">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 1.2.5</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:1.2.5:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:1.3.1">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 1.3.1</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:1.3.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:1.4.1">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 1.4.1</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:1.4.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:1.4.2">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 1.4.2</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:1.4.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:1.4.2:beta">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 1.4.2 beta</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:1.4.2:beta:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024cms:1024_cms:2.1.1">
+    <title xml:lang="en-US">1024cms.org 1024 CMS 2.1.1</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024cms:1024_cms:2.1.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:1024tools:1024tools:1.0">
+    <title xml:lang="en-US">1024tools 1.0</title>
+    <references>
+      <reference href="https://www.tenable.com/cve/CVE-2019-9736">Advisory</reference>
+      <reference href="https://github.com/cnxh">Product</reference>
+      <reference href="https://1024tools.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:1024tools:1024tools:1.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:free_photo_viewer:1.3">
+    <title xml:lang="en-US">10-strike Free Photo Viewer 1.3</title>
+    <references>
+      <reference href="http://www.exifsoftware.com/download.shtml">Product</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:free_photo_viewer:1.3:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.0">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.0</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.1">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.1</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.2">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.2</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.3">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.3</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.3:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.4">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.4</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.4:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.5">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.5</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.5:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.6">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.6</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.6:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.7">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.7</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.7:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.8">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.8</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.8:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:1.21">
+    <title xml:lang="en-US">10-Strike Network Monitor 1.21</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:1.21:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.0">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.0</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.1">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.1</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.2">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.2</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.3">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.3</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.3:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.4">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.4</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.4:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.5">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.5</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.5:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:2.6">
+    <title xml:lang="en-US">10-Strike Network Monitor 2.6</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:2.6:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:3.0">
+    <title xml:lang="en-US">10-Strike Network Monitor 3.0</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:3.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:3.1">
+    <title xml:lang="en-US">10-Strike Network Monitor 3.1</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:3.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:3.2">
+    <title xml:lang="en-US">10-Strike Network Monitor 3.2</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:3.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.0">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.0</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.1">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.1</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.2">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.2</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.3">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.3</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.3:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.4">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.4</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.4:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.5">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.5</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.5:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:4.6">
+    <title xml:lang="en-US">10-Strike Network Monitor 4.6</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:4.6:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:5.0">
+    <title xml:lang="en-US">10-Strike Network Monitor 5.0</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:5.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:5.1">
+    <title xml:lang="en-US">10-Strike Network Monitor 5.1</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:5.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:5.2">
+    <title xml:lang="en-US">10-Strike Network Monitor 5.2</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:5.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:5.3">
+    <title xml:lang="en-US">10-Strike Network Monitor 5.3</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:5.3:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:5.4">
+    <title xml:lang="en-US">10-Strike Network Monitor 5.4</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:5.4:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:5.5">
+    <title xml:lang="en-US">10-Strike Network Monitor 5.5</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:5.5:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:6.0">
+    <title xml:lang="en-US">10-Strike Network Monitor 6.0</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:6.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:6.1">
+    <title xml:lang="en-US">10-Strike Network Monitor 6.1</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:6.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10-strike:network_monitor:6.2">
+    <title xml:lang="en-US">10-Strike Network Monitor 6.2</title>
+    <references>
+      <reference href="https://www.10-strike.com/network-monitor/history.shtml">Version</reference>
+      <reference href="https://www.10-strike.com/">Vendor</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10-strike:network_monitor:6.2:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.0.0::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.0.0 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.0.0:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.3.0::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.3.0 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.3.0:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.4.0::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.4.0 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.4.0:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.5.0::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.5.0 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.5.0:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.6.3::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.6.3 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.6.3:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.6.4::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.6.4 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.6.4:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.6.6::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.6.6 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.6.6:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.7::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.7 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.7:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.7.1::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.7.1 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.7.1:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.7.2::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.7.2 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.7.2:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:10web:form_maker:1.7.4::~~~wordpress~~">
+    <title xml:lang="en-US">10web Form Maker 1.7.4 for WordPress</title>
+    <references>
+      <reference href="https://wordpress.org/plugins/form-maker/#developers">Change Log</reference>
+    </references>
+    <cpe-23:cpe23-item name="cpe:2.3:a:10web:form_maker:1.7.4:*:*:*:*:wordpress:*:*"/>
+  </cpe-item>
+</cpe-list>

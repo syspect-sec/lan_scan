@@ -1,0 +1,20 @@
+Determine firewall status
+Scan host using IP protocol ping
+Scan host using UDP ping
+Scan host UDP services
+Scan for IP protocol
+Stealthy scan
+Find TCP ports using TCP ACK scan
+Find TCP ports using TCP Window scan
+TCP ports using TCP Maimon scan
+TCP Null Scan to fool a firewall to generate a response
+TCP Fin scan to check firewall
+TCP Xmas scan to check firewall
+Firewall evasion: Fragment packets
+Firewall evasion: Maximum Transmission Unit
+Firewall evasion: Idle zombie
+Scan using TCP SYN scan (default)
+Scan a single UDP port
+Scan a range of UDP ports
+Scan all 65535 UDP ports
+Scan for UDP DDOS reflectors

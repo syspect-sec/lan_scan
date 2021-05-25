@@ -1,0 +1,38 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+__pycache__
+
+# Logs
+######################
+LOG/old_log_files
+LOG/old_link_files
+*.log
+
+# Temp Storage Directory
+########################
+working_files
+working_files/.*
+
+# Ignnore Python .pyc files
+###########################
+*.pyc
+
+# Ignore the notes
+notes.txt
+
+# Ignore serializezd files
+*.ser
+
+# Downloads
+res/downloads/*
+
+# Unzipped .json or .xml files
+*.json
+*.xml
