@@ -28,7 +28,6 @@ class SQLProcess:
         self._charset = db_args['charset']
         self._conn = None
         self._cursor = None
-        self.table_list = None
 
     # Establish connection to the database
     def connect(self):
@@ -59,7 +58,7 @@ class SQLProcess:
             return True
 
     # Check for each required table
-    def check_database_installed(self, table_names):
+    def check_database_installed(self, required_tables):
 
         logger = LanScanLogger.logging.getLogger("LanScan_Logs")
 
@@ -72,23 +71,23 @@ class SQLProcess:
 
         # Print check
         for row in installed:
-            if row[0] in table_names:
-                i = table_names.index(row[0])
-                table_names.pop(i)
-        if len(table_names) == 0: return True
+            if row[0] in required_tables:
+                i = required_tables.index(row[0])
+                required_tables.pop(i)
+        if len(required_tables) == 0: return True
         else: return False
 
     # Check that each table in vuln_db is populated
-    def check_database_populated(self, table_names):
-        print(table_names)
-        return False
+    def check_database_populated(self, required_tables):
+
         logger = LanScanLogger.logging.getLogger("LanScan_Logs")
+
         try:
-            for table in table_names:
-                print("-- Checking " + table_names + " is populated...")
+            for table in required_tables:
+                print("** Checking " + table + " is populated...")
                 # Get list of all tables in the vuln_db database
                 sql = """SELECT count(*)
-                FROM """ + table_names
+                FROM """ + table
                 self._cursor.execute(sql)
                 count = self._cursor.fetchone()
                 print(count)

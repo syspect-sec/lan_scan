@@ -533,8 +533,16 @@ class VulnDbPopulate:
         cve_filepath = cve_filepath.replace(".zip", "")
         os.remove(cve_filepath)
 
+    # Get updates from NIST and replace in database
+    def update_cve_database(self):
+        pass
+
+    # Get updates from NIST and replace in database
+    def update_cpe_database(self):
+        pass
+
     # Check the downloaded CVE file for hash value
-    def check_cve_download_hash(year):
+    def check_cve_download_hash(self, year):
 
         url = self.nist_cve_meta_url.replace("{year}", str(year))
         download_filepath = self.download_filepath + self.nist_cve_meta_url.split("/")[-1]

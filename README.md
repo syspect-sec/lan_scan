@@ -2,7 +2,7 @@
 
 ## Introduction
 
-LanScan.py is a vulnerability scanning application. LanScan will populate a PostgreSQL with NIST CVE data feed bulk data files, and NIST CDE Dictionary
+LanScan.py is a vulnerability scanning application. LanScan will populate a PostgreSQL with NIST CVE data feed bulk data files, and NIST CDE Dictionary.  After using Nmap to map and service scan all LAN hosts, it searches the NIST CVE database for CPEs found in the LAN.
 
 
 ## Service Vulnerability Mapping

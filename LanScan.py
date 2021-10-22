@@ -14,7 +14,7 @@ import socket
 from netaddr import IPAddress
 import netifaces
 #https://pypi.org/project/icmplib/
-from icmplib import ping, multiping, traceroute, resolve, Host, Hop
+import icmplib
 #import uuid
 from getmac import get_mac_address as gma
 from mac_vendor_lookup import MacLookup as mac_lookup
@@ -194,17 +194,15 @@ def translate_populate_input(input):
 def do_database_startup_check(args):
     # Include logger
     logger = LanScanLogger.logging.getLogger("LanScan_Logs")
-    required_tables = args['required_tables']
     # Create a database connection
     args['db_conn'] = SQLProcessor.SQLProcess(args['database_args'])
+    # Make a copy of the requried tables for the class
     if args['db_conn'].connect():
-        print(required_tables)
-        args['database_args']['db_installed'] = args['db_conn'].check_database_installed(required_tables)
+        args['database_args']['db_installed'] = args['db_conn'].check_database_installed(args['required_tables'].copy())
         # If database installed, then check if populated
         if args['database_args']['db_installed']:
-            print("-- Vulnerability database has been installed...")
-            print(required_tables)
-            args['database_args']['db_populated'] = args['db_conn'].check_database_populated(required_tables)
+            print("** Vulnerability database has been installed...")
+            args['database_args']['db_populated'] = args['db_conn'].check_database_populated(args['required_tables'].copy())
             # If database not populated then ask user if they want to populate it
             if args['database_args']['db_populated'] == False:
                 print("-- Vulnerability database has not been populated...")
@@ -215,7 +213,7 @@ def do_database_startup_check(args):
                     populate = translate_populate_input(input( bcol.PURPLE + "Do you want to populate the database (Y/n):>" + bcol.ENDC))
                 if populate:
                     try:
-                        print("-- Populating vulnerability database...")
+                        print("** Populating vulnerability database...")
                         # Import the Db Populator Module
                         import VulnDbPopulator
                         importer = VulnDbPopulator.VulnDbPopulate(args['database_args'])
@@ -227,6 +225,8 @@ def do_database_startup_check(args):
                     except Exception as e:
                         traceback.print_exc()
                         return args
+                else:
+                    return args
             else:
                 print("-- All vulnerability database tables are populated...")
                 return args
@@ -241,8 +241,10 @@ def do_database_startup_check(args):
 
 # Prints the details of the scan in pretty-format
 def print_formatted_scan(args, scans_list, input):
+    print("INPUT CHECK...")
+    print(input)
     scan = scans_list[input]
-    #print(scan)
+    print(scan)
     # Check if data was returned by the nmap scan
     if args['lan_info'][scan['intf']]["hosts"][scan["ip"]]["nmap_results"][scan['profile']] is None:
         print(bcol.FAIL + "xx No information returned by scan xx " + bcol.ENDC)
@@ -262,7 +264,7 @@ def translate_scans_input(args, scans_list, input):
         if scans_list[int(input)] == None: return 0
         elif scans_list[int(input)] == None: return 1
         print("**input OK**")
-        return True
+        return int(input)
     # Handle quit option
     elif input.upper() == "Q":
         print("TTYL!!")
@@ -282,7 +284,7 @@ def translate_input(args, ser_list, input):
         return input + "." + args['serialized_ext']
 
 # Check the host for vulnerabilities
-def check_host_for_vulns(args, scans_list):
+def check_host_for_vulns(args, scans_list, sel):
     print("check_host_for_vulns")
     pass
 
@@ -341,7 +343,9 @@ def check_ip_valid(ip):
 
 # Check if IP is public or private
 def check_ip_public(ip):
-    return IPAddress().is_public()
+    if IPAddress(ip).is_private():
+        return False
+    else: return True
 
 # Get a traceroute to the host
 def get_host_traceroute(ip):
@@ -349,7 +353,8 @@ def get_host_traceroute(ip):
     # Check if the IP is an internal IP or public
     #pid = random.randrange(100)
     if check_ip_valid(ip) and not check_ip_public(ip):
-        traceroute = traceroute(ip, count=2, fast=True)
+        trace_data = icmplib.traceroute(ip, count=2, fast=True)
+        return trace_data
     else:
         print(bcol.FAIL + "xx FAIL: " + + bcol.ENDC + " IP address " + bcol.CYAN + ip + bcol.ENDC + " failed to validate.")
         return None
@@ -367,6 +372,7 @@ def get_host_mac_address(ip, ipv6=False):
         return mac_addr
 
 def get_mac_vendor(mac_addr):
+    print("-- Searching for MAC vendor for: " + bcol.CYAN + mac_addr + bcol.ENDC)
     vendor = mac_lookup().lookup(mac_addr)
     print("-- MAC vendor found for " + mac_addr + ": " + bcol.PURPLE + vendor + bcol.ENDC)
     return vendor
@@ -434,14 +440,21 @@ def create_lan_host_list(args):
         # Use the IP address and CIDR to generate host range for nmap
         host_range = generate_host_range(args['lan_info'][intf]['addr'], args['lan_info'][intf]['cidr'])
 
-        try:
+        if "127.0.0" not in host_range:
 
-            if "127.0.0" not in host_range:
+            try:
                 # Use python-nmap to get list of all hosts on network
-                lan_hosts = args['nm'].scan(hosts=host_range, arguments='-sn', timeout=10)
-                #pprint(lan_hosts)
-                # Loop through each host found
-                for ip, info in lan_hosts['scan'].items():
+                lan_hosts = args['nm'].scan(hosts=host_range, arguments='-sn')
+            except Exception as e:
+                print(bcol.FAIL + "** FAILED ** " + bcol.ENDC + "Nmap scan of LAN host range: " + bcol.CYAN + host_range + bcol.ENDC + "...")
+                traceback.print_exc()
+                logger.error("** FAILED Nmap scan of LAN host range: " + host_range + " ...")
+                logger.error(traceback.format_exc())
+            pprint(lan_hosts)
+
+            # Loop through each host found
+            for ip, info in lan_hosts['scan'].items():
+                try:
                     # Get the domain
                     print("[-- Adding found IP: " + bcol.CYAN + ip + bcol.ENDC + " to the LAN hosts list...]")
                     # Put the found scan nodes on interface
@@ -450,17 +463,17 @@ def create_lan_host_list(args):
                     args['lan_info'][intf]['hosts'][ip]["mac_addr"] = get_host_mac_address(ip)
                     if 'vendor' in args['lan_info'][intf]['hosts'][ip]:
                         args['lan_info'][intf]['hosts'][ip]['vendor']["mac_vendor"] = get_mac_vendor(args['lan_info'][intf]['hosts'][ip]["mac_addr"])
-                    else: print("--No vendor attry found")
+                    else: print("--No vendor found")
                     # Get a traceroute for private hosts
                     if args['is_root']:
                         args['lan_info'][intf]['hosts'][ip]["traceroute"] = get_host_traceroute(ip)
                     else: print(bcol.FAIL + "xx you are not root. Skipping traceroute for hosts." + bcol.ENDC)
 
-        except Exception as e:
-            print(bcol.FAIL + "** FAILED ** " + bcol.ENDC + "Nmap scan of LAN host range: " + bcol.CYAN + host_range + bcol.ENDC + "...")
-            traceback.print_exc()
-            logger.error("** FAILED Nmap scan of LAN host range: " + host_range + " ...")
-            logger.error(traceback.format_exc())
+                except Exception as e:
+                    print(bcol.FAIL + "** FAILED ** " + bcol.ENDC + "Nmap scan of host with ip: " + bcol.CYAN + ip + bcol.ENDC + "...")
+                    traceback.print_exc()
+                    logger.error("** FAILED Nmap scan of host with ip: " + ip + " ...")
+                    logger.error(traceback.format_exc())
 
     # Return the qq
     print("-- Finished scanning for hosts...")
@@ -717,7 +730,7 @@ if __name__ == "__main__":
     logger = LanScanLogger.logging.getLogger("LanScan_Logs")
 
     # Do a startup check to see if databases are installed
-    args = do_database_startup_check(args)
+    do_database_startup_check(args)
 
     # Print the title art
     print_ascii_title()
@@ -781,9 +794,9 @@ if __name__ == "__main__":
             # Start the menu system
             while True:
                 # Check input and quit if requested
-                input_ok = translate_scans_input(args, scans_list, input(":>"))
+                sel = translate_scans_input(args, scans_list, input(":>"))
                 # If full scan of all hosts requested
-                if input_ok == "A":
+                if sel == "A":
                     args = check_all_available_hosts_for_vuln(args, scans_list)
                     build_vulnerability_report(args)
                     print_report_data(args)
@@ -793,14 +806,14 @@ if __name__ == "__main__":
                     print("\nEnter item number to retrieve scan data and analyze.")
 
                 # Go back to all available serial files
-                elif input_ok == "B":
+                elif sel == "B":
                     break
-                elif input_ok:
-                    print_formatted_scan(args, scans_list, input_ok)
+                elif sel:
+                    print_formatted_scan(args, scans_list, sel)
                     # Ask user if they want to scan the host for vulnerabilities
                     while True:
                         scan_input = translate_vuln_check_input(input(bcol.WARN + "** Do you want to scan host Nmap results for vulnerabilities? (Y/n) :>" + bcol.ENDC))
-                        if scan_input: check_host_for_vulns(args, scans_list, input_ok)
+                        if scan_input: check_host_for_vulns(args, scans_list, sel)
                         if not scan_input:
                             print_available_scans(scans_list)
                             print("\nEnter item number to retrieve scan data and analyze.")
